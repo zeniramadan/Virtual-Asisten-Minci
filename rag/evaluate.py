@@ -32,7 +32,7 @@ except ImportError:
 # ============================================================
 GROUND_TRUTH_PATH = os.path.join(config.DATASET_DIR, "ground_truth.json")
 STRESS_CASES_PATH = os.path.join(config.DATASET_DIR, "stress_cases.json")
-EVAL_OUTPUT_DIR = os.path.join(config.RAG_DIR, "eval_reports")
+EVAL_OUTPUT_DIR = os.path.join(config.RAG_DIR, "reports")
 os.makedirs(EVAL_OUTPUT_DIR, exist_ok=True)
 
 K_VALUES = [1, 3, 5]  # nilai k yang dievaluasi untuk retrieval

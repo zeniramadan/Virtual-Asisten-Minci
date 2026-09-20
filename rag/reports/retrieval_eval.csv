@@ -1,0 +1,43 @@
+query,expected_title,hit@1,precision@1,recall@1,ndcg@1,hit@3,precision@3,recall@3,ndcg@3,hit@5,precision@5,recall@5,ndcg@5
+syarat pendaftaran mahasiswa baru apa aja,PMB,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+kalo mau daftar sttc perlu siapin apa aja,PMB,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
+dokumen yang harus discan buat daftar kuliah apa aja,PMB,0,0.0,0.0,0.0,1,0.3333,1.0,0.5,1,0.2,1.0,0.5
+link atau formulir pendaftaran online dimana,PMB,0,0.0,0.0,0.0,1,0.6667,1.0,0.6309,1,0.4,1.0,0.6309
+jurusan apa saja yang ada di kampus,PMB,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.4,1.0,1.0
+ada ukm apa aja di kampus,PMB,0,0.0,0.0,0.0,0,0.0,0.0,0.0,1,0.2,1.0,0.3869
+ada beasiswa gak buat mahasiswa baru,PMB,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.6,1.0,1.0
+beasiswa kip-k dapat fasilitas apa aja,PMB,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.6,1.0,1.0
+ukt 50% dapat potongan biaya semester berapa persen,PMB,0,0.0,0.0,0.0,0,0.0,0.0,0.0,1,0.2,1.0,0.4307
+stt cipasung didirikan tahun berapa dan di bawah supervisi siapa,PMB,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,0.6,1.0,1.0
+alamat kampus dimana,PMB,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.6,1.0,1.0
+nomor telepon sama email kampus apa,PMB,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.4,1.0,1.0
+prospek kerja lulusan informatika apa aja,PMB,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,0.8,1.0,1.0
+prospek kerja lulusan teknik industri kemana aja,PMB,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
+cara mengisi krs,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
+gimana cara login ke sistem krs online,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
+username sama password buat login krs apa,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
+syarat perwalian online,KRS,0,0.0,0.0,0.0,1,0.6667,1.0,0.6309,1,0.8,1.0,0.6309
+prosedur pengisian rencana studi gimana,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,0.8,1.0,1.0
+maksimal sks yang boleh diambil berapa,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
+kalau ipk di bawah 3 boleh ambil mata kuliah bebas gak,KRS,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.4,1.0,1.0
+cara cetak krs gimana,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
+apa itu perwalian,KRS,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
+kalau gak perwalian terus gak krs-an statusnya jadi apa,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
+biaya kuliah berapa,BIAYA,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+ukt per semester berapa,BIAYA,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+biaya pendaftaran berapa,BIAYA,0,0.0,0.0,0.0,1,0.3333,1.0,0.6309,1,0.2,1.0,0.6309
+biaya awal masuk kuliah ada apa aja,BIAYA,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+bayar ukt bisa dicicil gak,BIAYA,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+total biaya kuliah sampai lulus berapa,BIAYA,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+biaya sidang ta berapa,BIAYA,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+semester 7 ada biaya tambahan apa,BIAYA,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+kapan pmb gelombang 1 dibuka,KALENDER,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+pendaftaran gelombang 3 mulai kapan,KALENDER,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.4,1.0,1.0
+jadwal uts kapan,KALENDER,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
+jadwal uas kapan,KALENDER,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
+kapan pengumuman hasil seleksi gelombang 2,KALENDER,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
+kapan wisuda,KALENDER,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
+jadwal herregistrasi kapan,KALENDER,0,0.0,0.0,0.0,1,0.6667,1.0,0.6309,1,0.4,1.0,0.6309
+ktmb dilaksanakan tanggal berapa,KALENDER,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
+batas waktu cuti kuliah atau kprs kapan,KALENDER,0,0.0,0.0,0.0,0,0.0,0.0,0.0,0,0.0,0.0,0.0
+libur natal kapan,KALENDER,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
