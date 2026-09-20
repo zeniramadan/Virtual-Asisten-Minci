@@ -4,6 +4,8 @@ import sys
 import json
 import time
 import sqlite3
+import threading
+import textwrap
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if PROJECT_ROOT not in sys.path:
@@ -15,24 +17,70 @@ import rag.config as config
 import ollama_utils
 
 # ============================================================
-# DEBUG HELPERS
+# DEBUG (ringkas: satu blok per pesan)
 # ============================================================
-def _line(char="─", n=70):
-    print(char * n)
+DEBUG = os.environ.get("MINCI_DEBUG", "1") != "0"   # set MINCI_DEBUG=0 untuk mematikan
+_dbg = threading.local()                             # aman untuk beberapa pesan yang diproses bersamaan
 
-def _debug_block(label: str, content: str):
-    _line("·")
-    print(f"[DEBUG] {label}:")
-    print(content if content.strip() else "(kosong)")
+def _debug_start(user_id: str, question: str):
+    _dbg.info = {"id": user_id, "question": question, "chitchat": None,
+                 "standalone": None, "fetched": [], "sent": [], "error": None}
+
+def _debug_set(**kwargs):
+    info = getattr(_dbg, "info", None)
+    if info is not None:
+        info.update(kwargs)
 
 def _debug_retrieved_chunks(query: str, results: dict):
-    ids = results["ids"][0]
-    if not ids:
-        print("[DEBUG] Tidak ada chunk yang ter-retrieve.")
+    _debug_set(fetched=[
+        {"metadata": m, "distance": d, "text": t}
+        for t, m, d in zip(results["documents"][0], results["metadatas"][0], results["distances"][0])
+    ])
+
+def _fmt_chunks(chunks: list, empty: str) -> str:
+    if not chunks:
+        return f"    {empty}"
+    rows = []
+    for rank, c in enumerate(chunks, start=1):
+        meta = c["metadata"]
+        preview = " ".join(c["text"].split())[:60]
+        rows.append(f'    {rank}. {meta.get("file_name")}#{meta.get("chunk_index")} | {c["distance"]:.3f} | {preview}...')
+    return "\n".join(rows)
+
+def _debug_show(answer: str):
+    if not DEBUG:
         return
-    for rank, (doc, meta, dist) in enumerate(zip(results["documents"][0], results["metadatas"][0], results["distances"][0]), start=1):
-        preview = doc[:60].replace("\n", " ").strip()
-        print(f'[DEBUG] #{rank} dist={dist:.4f} | {meta.get("file_name")} | "{preview}..."')
+    info = getattr(_dbg, "info", None)
+    if info is None:
+        return
+
+    if info["chitchat"]:
+        mandiri = f"- (chitchat: {info['chitchat']}, retrieval dilewati)"
+        chunk_lines = ["Chunks diambil     : -", "Chunks dikirim     : -"]
+    else:
+        mandiri = info["standalone"]
+        sent_txt = _fmt_chunks(info["sent"], "(kosong -> jawaban fallback)")
+        if info["error"]:
+            sent_txt = f"    - (RAG error: {info['error']})"
+        chunk_lines = [
+            f"Chunks diambil ({len(info['fetched'])}, ambang jarak {getattr(config, 'DISTANCE_THRESHOLD', None)}):",
+            _fmt_chunks(info["fetched"], "-"),
+            f"Chunks dikirim ({len(info['sent'])}):",
+            sent_txt,
+        ]
+
+    lines = [
+        "=" * 70,
+        f"ID                 : {info['id']}",
+        f"Pertanyaan         : {info['question']}",
+        f"Pertanyaan mandiri : {mandiri}",
+        *chunk_lines,
+        f"Pertanyaan ke LLM  : {info['question']}",
+        "Jawaban            :",
+        textwrap.indent(answer.strip(), "    "),
+        "=" * 70,
+    ]
+    print("\n".join(lines))  # satu print() supaya tidak tercampur antar pesan
 
 # ============================================================
 # DATABASE RIWAYAT CHAT
@@ -132,7 +180,6 @@ def retrieve_context(query: str, top_k: int = None, fetch_k: int = None):
     except Exception:
         collection_count = None
     if collection_count == 0:
-        print("[DEBUG] Koleksi ChromaDB kosong -> tidak ada dokumen untuk di-retrieve.")
         return []
     if collection_count is not None:
         fetch_k = min(fetch_k, collection_count)
@@ -154,9 +201,6 @@ def retrieve_context(query: str, top_k: int = None, fetch_k: int = None):
     # 3. urutkan berdasarkan jarak, ambil top_k
     candidates.sort(key=lambda c: c["distance"])
     selected = candidates[:top_k]
-
-    if not selected:
-        print("[DEBUG] Tidak ada chunk relevan setelah filter -> context kosong (fallback akan aktif).")
 
     return selected
 
@@ -208,30 +252,28 @@ def _call_llm(system_prompt: str, history: list, user_message: str) -> str:
 def generate_reply(user_id: str, user_message: str) -> str:
     conn = _get_db()
     try:
-        _line("=")
-        print(f"[DEBUG] user_id = {user_id}")
-        _debug_block("Pertanyaan (asli dari user)", user_message)
+        _debug_start(user_id, user_message)
 
         history = _get_history(conn, user_id)
         category, _ = detect_chitchat(user_message)
 
         if category:
-            print(f"[DEBUG] Terdeteksi CHITCHAT -> kategori: {category}")
+            _debug_set(chitchat=category)
             system_prompt = config.CHITCHAT_SYSTEM_PROMPT
         else:
             standalone_question = _generate_standalone_question(history, user_message)
-            _debug_block("Pertanyaan mandiri (hasil LLM)", standalone_question)
+            _debug_set(standalone=standalone_question)
             try:
                 chunks = retrieve_context(standalone_question)
+                _debug_set(sent=chunks)
                 context_str = build_context_str(chunks)
                 system_prompt = config.SYSTEM_PROMPT_TEMPLATE.format(context_str=context_str)
             except Exception as e:
                 system_prompt = config.SYSTEM_PROMPT_TEMPLATE.format(context_str="")
-                print(f"[DEBUG] RAG belum di-ingest atau error: {e}")
+                _debug_set(error=e)
 
         answer = _call_llm(system_prompt, history, user_message)
-        _debug_block("Jawaban", answer)
-        _line("=")
+        _debug_show(answer)
 
         _save_message(conn, user_id, "user", user_message)
         _save_message(conn, user_id, "assistant", answer)

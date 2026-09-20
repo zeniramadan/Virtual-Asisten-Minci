@@ -17,16 +17,6 @@ print(f"[STARTUP] WA_ACCESS_TOKEN ada: {bool(config.WA_ACCESS_TOKEN)} | WA_PHONE
 
 DEDUP_TTL_SECONDS = 24 * 60 * 60
 
-# ============================================================
-# DEBUG HELPERS
-# ============================================================
-def _line(char="─", n=70):
-    print(char * n)
-
-def _debug_block(label: str, content: str):
-    print(f"[DEBUG][APP] {label}:")
-    print(content if content.strip() else "(kosong)")
-
 def _get_dedup_db() -> sqlite3.Connection:
     conn = sqlite3.connect(config.SQLITE_PATH)
     conn.execute("""
@@ -53,32 +43,19 @@ def _already_processed(message_id: str) -> bool:
 
 def _send_whatsapp_message(to: str, text: str):
     if not config.WA_ACCESS_TOKEN or not config.WA_PHONE_NUMBER_ID:
-        print(f"[DRY RUN] WA_ACCESS_TOKEN/WA_PHONE_NUMBER_ID kosong -> balasan TIDAK dikirim ke WA, cuma diprint di sini.")
-        print(f"[DRY RUN] Balasan ke {to}: {text}")
+        print("[WA] DRY RUN: WA_ACCESS_TOKEN/WA_PHONE_NUMBER_ID kosong, balasan tidak dikirim.")
         return
     headers = {"Authorization": f"Bearer {config.WA_ACCESS_TOKEN}", "Content-Type": "application/json"}
     payload = {"messaging_product": "whatsapp", "to": to, "type": "text", "text": {"body": text}}
     try:
-        print(f"\n[WA] Mengirim balasan ke {to} lewat {config.WA_GRAPH_URL}")
         resp = requests.post(config.WA_GRAPH_URL, headers=headers, json=payload, timeout=30)
         if resp.status_code >= 400:
             print(f"[!] Gagal kirim WA ke {to}: {resp.status_code} {resp.text}")
-        else:
-            print(f"[WA] Balasan berhasil terkirim ke {to}\n")
     except requests.RequestException as e:
         print(f"[!] Error koneksi WA: {e}")
 
 def _process_and_reply(user_id: str, user_text: str):
-    _line("=")
-    print(f"[DEBUG][APP] Pesan masuk dari WhatsApp | user_id = {user_id}")
-    _debug_block("Pertanyaan (dari WA)", user_text)
-    _line("-")
-
     reply_text = generate_reply(user_id=user_id, user_message=user_text)
-
-    _debug_block("Jawaban final (akan dikirim ke WA)", reply_text)
-    _line("=")
-
     _send_whatsapp_message(user_id, reply_text)
 
 @app.get("/webhook", response_class=PlainTextResponse)
@@ -104,7 +81,6 @@ def receive_message(payload: dict = Body(default={}), background_tasks: Backgrou
 
     if message_id and _already_processed(message_id): return {"status": "duplicate"}
     if msg_type != "text":
-        print(f"[DEBUG][APP] Pesan dari {user_id} bertipe '{msg_type}' (bukan teks) -> diabaikan.")
         background_tasks.add_task(_send_whatsapp_message, user_id, "Maaf kak, Minci saat ini baru bisa membaca pesan teks ya 🙏")
         return {"status": "unsupported_type"}
 
