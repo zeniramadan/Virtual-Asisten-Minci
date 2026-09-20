@@ -18,17 +18,6 @@
 
 </div>
 
-<div align="center">
-<table>
-<tr>
-<td align="center"><strong>4</strong><br>domain knowledge</td>
-<td align="center"><strong>25</strong><br>indexed chunks</td>
-<td align="center"><strong>1</strong><br>WhatsApp webhook</td>
-<td align="center"><strong>0</strong><br>cloud LLM dependency for core chat</td>
-</tr>
-</table>
-</div>
-
 ## Tentang Proyek
 
 Minci adalah asisten virtual akademik untuk STT Cipasung. Sistem menerima pertanyaan melalui WhatsApp, mengambil konteks yang relevan dari dokumen kampus, kemudian menghasilkan jawaban menggunakan model bahasa lokal melalui Ollama.
