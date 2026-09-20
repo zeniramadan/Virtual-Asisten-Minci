@@ -1,0 +1,25 @@
+.env
+.venv/
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and generated RAG data
+*.db
+rag/database/
+rag/dataset/
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/

@@ -1,0 +1,15 @@
+# Inti (RAG + webhook)
+chromadb
+ollama
+pdfplumber
+python-docx
+llama-index-core
+fastapi
+uvicorn
+requests
+python-dotenv
+pyngrok
+
+# Hanya untuk evaluate_rag.py
+google-generativeai
+pandas
