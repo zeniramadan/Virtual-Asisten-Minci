@@ -1,24 +1,4 @@
-<style>
-  .minci-hero {
-    padding: 28px 20px;
-    border: 1px solid #d8dee9;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #f7fbff 0%, #eef8f4 100%);
-  }
-  .minci-metrics {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 8px;
-  }
-  .minci-metrics td {
-    padding: 14px 10px;
-    border: 1px solid #d8dee9;
-    border-radius: 10px;
-    background: #ffffff;
-  }
-</style>
-
-<div class="minci-hero" align="center">
+<div align="center">
 
 <h1>MINCI</h1>
 <p><strong>Virtual Assistant for STT Cipasung</strong></p>
@@ -39,7 +19,7 @@
 </div>
 
 <div align="center">
-<table class="minci-metrics">
+<table>
 <tr>
 <td align="center"><strong>4</strong><br>domain knowledge</td>
 <td align="center"><strong>25</strong><br>indexed chunks</td>
