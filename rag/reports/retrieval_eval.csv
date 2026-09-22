@@ -1,6 +1,6 @@
 query,expected_title,hit@1,precision@1,recall@1,ndcg@1,hit@3,precision@3,recall@3,ndcg@3,hit@5,precision@5,recall@5,ndcg@5
 syarat pendaftaran mahasiswa baru apa aja,PMB,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.2,1.0,1.0
-kalo mau daftar sttc perlu siapin apa aja,PMB,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.4,1.0,1.0
+kalo mau daftar sttc perlu siapin apa aja,PMB,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.6,1.0,1.0
 dokumen yang harus discan buat daftar kuliah apa aja,PMB,0,0.0,0.0,0.0,1,0.3333,1.0,0.5,1,0.2,1.0,0.5
 link atau formulir pendaftaran online dimana,PMB,0,0.0,0.0,0.0,1,0.6667,1.0,0.6309,1,0.4,1.0,0.6309
 jurusan apa saja yang ada di kampus,PMB,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.4,1.0,1.0
@@ -16,7 +16,7 @@ prospek kerja lulusan teknik industri kemana aja,PMB,1,1.0,1.0,1.0,1,1.0,1.0,1.0
 cara mengisi krs,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
 gimana cara login ke sistem krs online,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
 username sama password buat login krs apa,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
-syarat perwalian online,KRS,0,0.0,0.0,0.0,1,0.6667,1.0,0.6309,1,0.8,1.0,0.6309
+syarat perwalian online,KRS,1,1.0,1.0,1.0,1,0.6667,1.0,1.0,1,0.8,1.0,1.0
 prosedur pengisian rencana studi gimana,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,0.8,1.0,1.0
 maksimal sks yang boleh diambil berapa,KRS,1,1.0,1.0,1.0,1,1.0,1.0,1.0,1,1.0,1.0,1.0
 kalau ipk di bawah 3 boleh ambil mata kuliah bebas gak,KRS,1,1.0,1.0,1.0,1,0.3333,1.0,1.0,1,0.4,1.0,1.0

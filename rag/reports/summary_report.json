@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-09-22T10:50:58.284489",
+  "gemini_judge_model": "gemini-3.5-flash-lite",
+  "retrieval": {
+    "HitRate@1": 0.8333,
+    "Precision@1": 0.8333,
+    "Recall@1": 0.8333,
+    "NDCG@1": 0.8333,
+    "HitRate@3": 0.9286,
+    "Precision@3": 0.5635,
+    "Recall@3": 0.9286,
+    "NDCG@3": 0.8903,
+    "HitRate@5": 0.9762,
+    "Precision@5": 0.4762,
+    "Recall@5": 0.9762,
+    "NDCG@5": 0.9098
+  },
+  "generation": {
+    "avg_faithfulness_score": 0.8929,
+    "n_evaluated": 42,
+    "verdict_distribution": {
+      "faithful": 37,
+      "partially_faithful": 1,
+      "hallucinated": 4
+    }
+  },
+  "stress_test": {
+    "overall_pass_rate": 1.0,
+    "by_category": {
+      "out_of_context": {
+        "total": 3,
+        "passed": 3,
+        "pass_rate": 1.0
+      },
+      "ambigu": {
+        "total": 2,
+        "passed": 2,
+        "pass_rate": 1.0
+      },
+      "prompt_injection": {
+        "total": 2,
+        "passed": 2,
+        "pass_rate": 1.0
+      },
+      "jailbreak": {
+        "total": 1,
+        "passed": 1,
+        "pass_rate": 1.0
+      },
+      "di_luar_cakupan_dokumen": {
+        "total": 2,
+        "passed": 2,
+        "pass_rate": 1.0
+      }
+    }
+  },
+  "overall_summary_percent": {
+    "HitRate@3": "92.9%",
+    "Precision@3": "56.4%",
+    "Recall@3": "92.9%",
+    "NDCG@3": "89.0%",
+    "Rata-rata Retrieval @3": "82.8%",
+    "Generation Faithfulness": "89.3%",
+    "Stress Test / Guardrail": "100.0%",
+    "SKOR KESELURUHAN": "90.7%"
+  }
+}

@@ -1,17 +1,15 @@
 query,answer,context_preview,faithfulness_score,verdict,reasoning
-syarat pendaftaran mahasiswa baru apa aja,"Kak, syarat pendaftaran mahasiswa baru di STT Cipasung adalah sebagai berikut:
-
-- Mengisi formulir pendaftaran secara online di s.id/pmbsttc
+syarat pendaftaran mahasiswa baru apa aja,"Haloo Kak! Syarat pendaftaran mahasiswa baru adalah:
+- Mengisi formulir pendaftaran online di s.id/pmbsttc
 - Membayar biaya pendaftaran sebesar Rp250.000
-- Menyediakan dokumen-dokumen berikut:
-  - Scan Ijazah /SKL SMA/SMK/MA
-  - Scan KTP
-  - Scan pas Foto ukuran 4x6
-  - Scan Kartu Keluarga
-  - Scan Akta Lahir
+- Menyertakan scan Ijazah / SKL SMA/SMK/MA
+- Menyertakan scan KTP
+- Menyertakan scan pas Foto ukuran 4x6
+- Menyertakan scan Kartu Keluarga
+- Menyertakan scan Akta Lahir
 
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah, kak?","[Sumber: PMB.docx]
-PERSYARATAN ADMINISTRASI
+Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
+PERSYARATAN PENDAFTARAN / ADMINISTRASI
 Mengisi formulir pendaftaran - Online: s.id/pmbsttc
 Membayar biaya pendaftaran - Rp250.000.
 Scan Ijazah /SKL SMA/SMK/MA
@@ -25,21 +23,19 @@ Scan Akta Lahir
 [Sumber: KRS.docx]
 SOP REGISTRASI DAN HERREGISTRASI MAHASISWA
 Tujuan
-Memastikan pelaksanaan registrasi dan herregistrasi mahasiswa berjalan secara efektif dan efisien sesuai dengan ketentuan dan peraturan yang berlaku serta memenuhi persyaratan yang telah dite...",1.0,faithful,Seluruh poin persyaratan pendaftaran yang disebutkan oleh chatbot didukung penuh oleh dokumen sumber PMB.docx tanpa adanya informasi yang dikarang.
-kalo mau daftar sttc perlu siapin apa aja,"Kak! Untuk mendaftar di STT Cipasung, kamu perlu siapkan beberapa dokumen penting, yaitu:
+Memastikan pelaksanaan registrasi dan herregistrasi mahasiswa berjalan secara efektif dan efisien sesuai dengan ketentuan dan peraturan yang berlaku serta memenuhi persyaratan y...",1.0,faithful,Semua poin persyaratan pendaftaran mahasiswa baru yang disebutkan dalam jawaban chatbot didukung sepenuhnya oleh dokumen [Sumber: PMB.docx].
+kalo mau daftar sttc perlu siapin apa aja,"Haloo Kak! Untuk mendaftar di STT Cipasung, kak perlu siapkan beberapa dokumen, yaitu:
 
-- Ijazah / SKL SMA/SMK/MA
-- KTP
-- Pas Foto ukuran 4x6
-- Kartu Keluarga
-- Akta Lahir
+- Scan Ijazah / SKL SMA/SMK/MA
+- Scan KTP
+- Scan pas Foto ukuran 4x6
+- Scan Kartu Keluarga
+- Scan Akta Lahir
+- Mengisi formulir pendaftaran secara online di s.id/pmbsttc
+- Membayar biaya pendaftaran sebesar Rp250.000.
 
-Selain itu, kamu juga perlu membayar biaya pendaftaran sebesar Rp250.000.
-
-Jika kamu sudah siap, kamu bisa langsung mendaftar secara online melalui link pendaftaran: s.id/pmbsttc.
-
-Apakah ada pertanyaan lain terkait PMB, Kak?","[Sumber: PMB.docx]
-PERSYARATAN ADMINISTRASI
+Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
+PERSYARATAN PENDAFTARAN / ADMINISTRASI
 Mengisi formulir pendaftaran - Online: s.id/pmbsttc
 Membayar biaya pendaftaran - Rp250.000.
 Scan Ijazah /SKL SMA/SMK/MA
@@ -50,17 +46,10 @@ Scan Akta Lahir
 
 ---
 
-[Sumber: KRS.docx]
-Kualifikasi Petugas / Pelaksana
-Ketua STT Cipasung
-Wakil Ketua I Bidang Akademik & Kemahasiswaan
-Wakil Ketua II Keuangan & Sumber Daya Manusia
-Ketua Program Studi (Ka. Prodi)
-Dosen Wali
-Bagian Akademik & Kemahasiswaan
-Lampiran
-Format Surat P...",1.0,faithful,"Semua informasi mengenai persyaratan dokumen, biaya pendaftaran, dan link pendaftaran didukung sepenuhnya oleh konteks dari sumber PMB.docx."
-dokumen yang harus discan buat daftar kuliah apa aja,"Untuk mendaftar kuliah, kamu perlu menyiapkan beberapa dokumen yang perlu discan. Dokumen tersebut adalah:
+[Sumber: PMB.docx]
+SEKILAS STT CIPASUNG
+Sekolah Tinggi Teknologi Cipasung (STTC) Didirikan pada tahun 1997, di bawah supervisi Institut Teknologi Bandung (ITB), STT Cipasung hadir untuk menjawab kebutuhan akan tenaga ahli teknik yang profesional....",1.0,faithful,Semua poin persyaratan pendaftaran yang disebutkan oleh chatbot sesuai secara akurat dengan dokumen konteks PMB.docx tanpa ada informasi yang dikarang.
+dokumen yang harus discan buat daftar kuliah apa aja,"Haloo Kak! Dokumen yang harus discan untuk pendaftaran kuliah adalah:
 
 - Ijazah / SKL SMA/SMK/MA
 - KTP
@@ -68,7 +57,7 @@ dokumen yang harus discan buat daftar kuliah apa aja,"Untuk mendaftar kuliah, ka
 - Kartu Keluarga
 - Akta Lahir
 
-Pastikan kamu memiliki semua dokumen tersebut sebelum mendaftar.","[Sumber: KRS.docx]
+Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 Kualifikasi Petugas / Pelaksana
 Ketua STT Cipasung
 Wakil Ketua I Bidang Akademik & Kemahasiswaan
@@ -82,23 +71,16 @@ Format Surat Perjanjian Kesanggupan Penyelesaian Studi
 Formulir Pengunduran Diri / Pindah Perguruan Tinggi / DO
 Berita Acara Penetapan Status Mahasiswa Masa Studi Berakhir
 Draft SK Ketua STT ...",1.0,faithful,Semua dokumen yang disebutkan dalam jawaban chatbot didukung sepenuhnya oleh informasi yang ada pada [Sumber: PMB.docx].
-link atau formulir pendaftaran online dimana,"Kak, link pendaftaran online PMB STT Cipasung ada di sini: http://s.id/pmbsttc. Kamu bisa mengunjungi link tersebut untuk mengisi formulir pendaftaran online.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+link atau formulir pendaftaran online dimana,"Haloo Kak! Link pendaftaran online ada di sini: s.id/pmbsttc. Kak bisa langsung mengunjungi link itu untuk mengisi formulir pendaftaran. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 PANDUAN PENGISIAN KARTU RENCANA STUDI (KRS) ONLINE UNTUK MAHASISWA
 Panduan Pengisian Kartu Rencana Studi (KRS) Online untuk Mahasiswa
 Pastikan jaringan internet Anda stabil dan telah melakukan konfirmasi tagihan pembayaran ke Bagian Keuangan di kantor Tata Usaha.
 Setelah terhubung dengan jaringan internet kampus, silahkan Anda masuk ke halaman http://31.58.158.149:8060/. Kemudian akan muncul tampilan sebagai berikut: (tampilan visual antarmuka login)
-Silahkan masukan Username ...",1.0,faithful,Link pendaftaran online yang diberikan oleh chatbot (http://s.id/pmbsttc) sesuai persis dengan informasi yang tercantum di dalam konteks PMB.docx.
-jurusan apa saja yang ada di kampus,"Kampus STT Cipasung memiliki beberapa program studi, yaitu:
-
-- Prodi Informatika (IF)
-- Prodi Teknik Industri (TI)
-
-Kedua program studi ini menawarkan pendidikan yang berkualitas dan relevan dengan kebutuhan industri saat ini.","[Sumber: PMB.docx]
+Silahkan masukan Username ...",1.0,faithful,Link pendaftaran online yang diberikan (s.id/pmbsttc) sesuai persis dengan informasi yang ada di sumber PMB.docx.
+jurusan apa saja yang ada di kampus,"Kampus STT Cipasung memiliki beberapa program studi, yaitu Prodi Informatika (IF) dan Teknik Industri.","[Sumber: PMB.docx]
 PRODI INFORMATIKA (IF)
-Program Studi Informatika mempelajari dan menerapkan prinsip-prinsip ilmu komputer dan analisis matematis dalam perancangan, pengujian, pengembangan serta evaluasi perangkat lunak (software), sistem operasi dan kinerja komputer. Bidang studi ini juga membahas tentang pengelolaan data menggunakan teknologi komputer dengan memanfaatkan prinsip dan proses logika. Pada dasarnya, mahasiswa informatika akan menjadi penerjemah suatu ide yang harus dituangkan da...",0.5,partially_faithful,"Konteks hanya menyebutkan Prodi Informatika (IF), sementara penyebutan Prodi Teknik Industri (TI) berasal dari dokumen KRS tetapi tidak dijelaskan secara rinci di bagian konteks prodi."
-ada ukm apa aja di kampus,"Kak! Kampus STT Cipasung memiliki berbagai UKM (Unit Kegiatan Mahasiswa) yang aktif dan beragam. Beberapa contoh UKM yang ada di kampus adalah:
+Program Studi Informatika mempelajari dan menerapkan prinsip-prinsip ilmu komputer dan analisis matematis dalam perancangan, pengujian, pengembangan serta evaluasi perangkat lunak (software), sistem operasi dan kinerja komputer. Bidang studi ini juga membahas tentang pengelolaan data menggunakan teknologi komputer dengan memanfaatkan prinsip dan proses logika. Pada dasarnya, mahasiswa informatika akan menjadi penerjemah suatu ide yang harus dituangkan da...",0.5,partially_faithful,"Konteks hanya menyebutkan Prodi Informatika (IF), tetapi jawaban juga mencantumkan Teknik Industri yang klaimnya tidak ada di dalam dokumen teks konteks."
+ada ukm apa aja di kampus,"Kampus STT Cipasung memiliki beberapa UKM (Unit Kegiatan Mahasiswa) yang aktif dan beragam. Beberapa contoh UKM yang ada di kampus adalah:
 
 - UKM Fotografi
 - UKM Seni Rupa
@@ -109,11 +91,9 @@ ada ukm apa aja di kampus,"Kak! Kampus STT Cipasung memiliki berbagai UKM (Unit 
 - UKM Bahasa dan Sastra
 - UKM Jurnalistik
 - UKM Karya Tulis
-- UKM Karya Ilmiah
+- UKM Karya Seni
 
-Namun, perlu diingat bahwa daftar UKM di atas tidak lengkap dan bisa berubah-ubah. Untuk informasi yang lebih akurat, kamu bisa menghubungi Bagian Kemahasiswaan atau UKM-UKM yang terkait langsung.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah, kak?","[Sumber: BIAYA.docx]
+Tentu ada beberapa UKM lainnya yang belum disebutkan di sini. Untuk informasi lebih lanjut, silakan menghubungi bagian Tata Usaha STT Cipasung ya, kak. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -123,15 +103,8 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",0.0,hallucinated,"Jawaban chatbot menyebutkan berbagai daftar UKM (Unit Kegiatan Mahasiswa), namun informasi mengenai UKM sama sekali tidak ada di dalam konteks dokumen yang diberikan."
-ada beasiswa gak buat mahasiswa baru,"Ya, ada beberapa jenis beasiswa yang ditawarkan untuk mahasiswa baru. Beasiswa yang paling umum adalah KIP-K, UKT 100%, UKT 75%, dan UKT 50%. 
-
-- KIP-K memberikan fasilitas bebas biaya awal, bebas/potongan biaya semester, bebas biaya sidang dan wisuda, serta dapat uang saku.
-- UKT 100% memberikan potongan biaya semester sebesar 100%.
-- UKT 75% memberikan potongan biaya semester sebesar 75%.
-- UKT 50% memberikan potongan biaya semester sebesar 50%.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: PMB.docx]
+| Semeste...",0.0,hallucinated,Jawaban menyebutkan berbagai macam UKM (Unit Kegiatan Mahasiswa) yang sama sekali tidak ada atau tidak disebutkan dalam konteks dokumen yang diberikan.
+ada beasiswa gak buat mahasiswa baru,"Maaf kak, Minci belum menemukan informasi tentang beasiswa khusus mahasiswa baru di STT Cipasung. Mungkin ada beasiswa lain yang bisa diikuti, tapi Minci belum punya informasi itu. Kakak bisa menghubungi bagian Tata Usaha STT Cipasung langsung untuk informasi lebih lanjut ya. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
 HUBUNGI KAMI / KONTAK / ALAMAT STT CIPASUNG
 Institusi: SEKOLAH TINGGI TEKNOLOGI CIPASUNG (TERAKREDITASI BAN-PT, DIKTISAINTEK BERDAMPAK)
 Alamat: Jl. Raya Cisinga KM.1, Padakembang Tasikmalaya 46466
@@ -141,15 +114,14 @@ Website: www.sttcipasung.ac.id / sttcipasung.ac.id
 Email: info@sttcipasung.ac.id
 Link Pendaftaran: http//s.id/pmbsttc (Scan Barcode Pendaftaran)
 Instagram: sttcipasung_official
-Motto: ""Higher Education for All""...",1.0,faithful,Semua informasi mengenai jenis beasiswa dan fasilitas yang disebutkan dalam jawaban sesuai secara akurat dengan data pada Tabel 1 di sumber dokumen PMB.docx.
-beasiswa kip-k dapat fasilitas apa aja,"Kak, menurut informasi yang saya punya, Beasiswa KIP-K memberikan beberapa fasilitas, yaitu:
-
+Motto: ""Higher Education for All""...",0.0,hallucinated,"Konteks secara jelas menyediakan informasi mengenai jenis beasiswa (KIP-K, UKT 100%, 75%, 50%), namun jawaban chatbot menyatakan tidak ada informasi tentang beasiswa."
+beasiswa kip-k dapat fasilitas apa aja,"Kak, Beasiswa KIP-K itu memberikan beberapa fasilitas, yaitu:
 - Bebas Biaya Awal
 - Bebas/Potongan Biaya Semester
 - Bebas Biaya Sidang dan Wisuda
 - Dapat Uang Saku
 
-Semoga informasi ini membantu, kak! Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: PMB.docx]
+Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
 S1 INFORMATIKA
 BEASISWA
 Beasiswa Kampus
@@ -165,12 +137,8 @@ Telepon: (0265) 2550424
 Pusat Informasi: +628211708 3998 / 0821-1708-3998
 Website: www.sttcipasung.ac.id / sttcipasung.ac.id
 Email: info@sttcipasung.ac.id
-Link Pendaftaran: http//s.id/pmbsttc (Scan B...",1.0,faithful,Semua fasilitas Beasiswa KIP-K yang disebutkan dalam jawaban sesuai secara persis dengan data pada [Tabel 1] di konteks.
-ukt 50% dapat potongan biaya semester berapa persen,"Menurut informasi yang saya miliki, Uang Kuliah Tunggal (UKT) adalah biaya yang dibayarkan setiap semester. Namun, saya tidak memiliki informasi tentang potongan biaya semester berdasarkan UKT 50%.
-
-Mungkin kamu bisa menghubungi Bagian Keuangan & Sumber Daya Manusia STT Cipasung untuk mendapatkan informasi yang lebih akurat tentang potongan biaya semester.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: BIAYA.docx]
+Link Pendaftaran: http//s.id/pmbsttc (Scan B...",1.0,faithful,Semua fasilitas Beasiswa KIP-K yang disebutkan dalam jawaban chatbot sesuai secara persis dengan data pada tabel beasiswa di dalam konteks dokumen.
+ukt 50% dapat potongan biaya semester berapa persen,"Maaf kak, Minci belum punya informasi soal potongan biaya UKT 50% itu. Untuk kepastiannya, kakak bisa menghubungi bagian Tata Usaha STT Cipasung langsung ya. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -180,13 +148,11 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,"Jawaban chatbot menyatakan tidak ada informasi mengenai potongan biaya semester 50% karena memang tidak terdapat data tersebut di dalam konteks, dan saran yang diberikan sesuai dengan isi dokumen."
-stt cipasung didirikan tahun berapa dan di bawah supervisi siapa,"STT Cipasung didirikan pada tahun 1997 di bawah supervisi Institut Teknologi Bandung (ITB).
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: PMB.docx]
+| Semeste...",1.0,faithful,"Jawaban chatbot menyatakan tidak memiliki informasi terkait potongan biaya UKT 50%, yang sesuai dengan konteks karena tidak ada informasi tersebut dalam dokumen, dan mengarahkan mahasiswa untuk menghubungi pihak terkait."
+stt cipasung didirikan tahun berapa dan di bawah supervisi siapa,"Haloo Kak! STT Cipasung didirikan pada tahun 1997, di bawah supervisi Institut Teknologi Bandung (ITB). Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
 SEKILAS STT CIPASUNG
-Didirikan pada tahun 1997 di bawah supervisi Institut Teknologi Bandung (ITB), STT Cipasung hadir untuk menjawab kebutuhan akan tenaga ahli teknik yang profesional. Kehadirannya merupakan respons strategis dalam mendukung kemajuan industri serta kebutuhan masyarakat luas. Berbasis lingkungan pesantren, STT Cipasung memadukan ilmu pengetahuan dengan nilai-nilai keislaman. Tujuannya adalah mencetak lulusan yang tidak hanya unggul secara intelektual, tetapi j...",1.0,faithful,Informasi mengenai tahun pendirian (1997) dan supervisi oleh ITB secara akurat didukung oleh teks dalam konteks.
-alamat kampus dimana,"Alamat kampus STT Cipasung terletak di Jl. Raya Cisinga KM.1, Padakembang Tasikmalaya 46466.","[Sumber: PMB.docx]
+Sekolah Tinggi Teknologi Cipasung (STTC) Didirikan pada tahun 1997, di bawah supervisi Institut Teknologi Bandung (ITB), STT Cipasung hadir untuk menjawab kebutuhan akan tenaga ahli teknik yang profesional. Kehadirannya merupakan respons strategis dalam mendukung kemajuan industri serta kebutuhan masyarakat luas. Berbasis lingkungan pesantren, STT Cipasung memadukan ilmu pengetahuan dengan nilai-nilai keislaman. Tujuannya adalah mencetak lulusan yang tidak...",1.0,faithful,Informasi mengenai tahun pendirian (1997) dan supervisi oleh ITB secara akurat didasarkan pada konteks yang diberikan.
+alamat kampus dimana,"Alamat kampus STT Cipasung ada di Jl. Raya Cisinga KM.1, Padakembang Tasikmalaya 46466. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
 HUBUNGI KAMI / KONTAK / ALAMAT STT CIPASUNG
 Institusi: SEKOLAH TINGGI TEKNOLOGI CIPASUNG (TERAKREDITASI BAN-PT, DIKTISAINTEK BERDAMPAK)
 Alamat: Jl. Raya Cisinga KM.1, Padakembang Tasikmalaya 46466
@@ -196,8 +162,8 @@ Website: www.sttcipasung.ac.id / sttcipasung.ac.id
 Email: info@sttcipasung.ac.id
 Link Pendaftaran: http//s.id/pmbsttc (Scan Barcode Pendaftaran)
 Instagram: sttcipasung_official
-Motto: ""Higher Education for All""...",1.0,faithful,Informasi mengenai alamat kampus STT Cipasung di jawaban sesuai persis dengan dokumen konteks yang diberikan.
-nomor telepon sama email kampus apa,"Nomor telepon kampus adalah (0265) 2550424, dan email kampus adalah info@sttcipasung.ac.id. Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: PMB.docx]
+Motto: ""Higher Education for All""...",1.0,faithful,Alamat yang disebutkan dalam jawaban chatbot sesuai secara persis dengan informasi yang tertera pada konteks dokumen PMB.docx.
+nomor telepon sama email kampus apa,"Nomor telepon kampus adalah (0265) 2550424, dan email kampus adalah info@sttcipasung.ac.id. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
 HUBUNGI KAMI / KONTAK / ALAMAT STT CIPASUNG
 Institusi: SEKOLAH TINGGI TEKNOLOGI CIPASUNG (TERAKREDITASI BAN-PT, DIKTISAINTEK BERDAMPAK)
 Alamat: Jl. Raya Cisinga KM.1, Padakembang Tasikmalaya 46466
@@ -207,166 +173,70 @@ Website: www.sttcipasung.ac.id / sttcipasung.ac.id
 Email: info@sttcipasung.ac.id
 Link Pendaftaran: http//s.id/pmbsttc (Scan Barcode Pendaftaran)
 Instagram: sttcipasung_official
-Motto: ""Higher Education for All""...",1.0,faithful,Nomor telepon dan email kampus yang disebutkan sesuai persis dengan informasi yang ada di dalam konteks dokumen PMB.docx.
-prospek kerja lulusan informatika apa aja,"Kak! Menurut informasi yang saya punya, prospek kerja lulusan Informatika sangat luas dan beragam. Beberapa diantaranya adalah:
-
-- Software Developer
-- Konsultan IT
-- Web Engineer
-- Perekayasa Jaringan Komputer
-- Programmer
-- Game Developer
-
-Lulusan Informatika juga bisa bekerja di sektor pendidikan dan menjadi peneliti di lembaga penelitian.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah, kak?","[Sumber: PMB.docx]
+Motto: ""Higher Education for All""...",1.0,faithful,Nomor telepon dan email kampus yang disebutkan sesuai persis dengan informasi yang ada di dalam konteks sumber PMB.docx.
+prospek kerja lulusan informatika apa aja,"Haloo Kak! Prospek kerja lulusan Informatika sangat luas, seperti software developer, konsultan IT, web Engineer, perekayasa jaringan komputer, programmer, dan game developer. Lulusan Informatika juga bisa bekerja di sektor pendidikan dan menjadi peneliti di lembaga peneliti. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
 PRODI INFORMATIKA (IF)
-Program Studi Informatika mempelajari dan menerapkan prinsip-prinsip ilmu komputer dan analisis matematis dalam perancangan, pengujian, pengembangan serta evaluasi perangkat lunak (software), sistem operasi dan kinerja komputer. Bidang studi ini juga membahas tentang pengelolaan data menggunakan teknologi komputer dengan memanfaatkan prinsip dan proses logika. Pada dasarnya, mahasiswa informatika akan menjadi penerjemah suatu ide yang harus dituangkan da...",1.0,faithful,Semua prospek kerja lulusan Informatika yang disebutkan dalam jawaban chatbot tercantum secara akurat dan lengkap di dalam konteks teks dokumen.
-prospek kerja lulusan teknik industri kemana aja,"Kak! Lulusan Teknik Industri memiliki prospek kerja yang sangat luas dan menjanjikan. Berdasarkan informasi yang saya miliki, beberapa bidang yang bisa ditempuh oleh lulusan Teknik Industri adalah:
-
-- Bidang produksi
-- Bidang operasi dan penjaminan mutu
-- Bidang sistem informasi
-- Bidang pemasaran
-- Bidang logistik
-- Bidang manajemen sumber daya manusia
-- Bidang keuangan (perbankan dan asuransi)
-- Bidang konsultasi manajemen
-
-Dengan kemampuan dan pengetahuan yang dimiliki, lulusan Teknik Industri dapat menempati berbagai posisi di berbagai industri dan sektor. Mereka juga dapat menjadi pengusaha atau founder perusahaan sendiri!
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah, kak?","[Sumber: PMB.docx]
+Program Studi Informatika mempelajari dan menerapkan prinsip-prinsip ilmu komputer dan analisis matematis dalam perancangan, pengujian, pengembangan serta evaluasi perangkat lunak (software), sistem operasi dan kinerja komputer. Bidang studi ini juga membahas tentang pengelolaan data menggunakan teknologi komputer dengan memanfaatkan prinsip dan proses logika. Pada dasarnya, mahasiswa informatika akan menjadi penerjemah suatu ide yang harus dituangkan da...",1.0,faithful,Semua prospek kerja lulusan Informatika yang disebutkan dalam jawaban sesuai secara persis dengan informasi yang ada di dalam konteks dokumen.
+prospek kerja lulusan teknik industri kemana aja,"Haloo Kak! Prospek kerja lulusan Teknik Industri sangat luas, Kak. Beberapa diantaranya adalah bidang produksi, operasi dan penjaminan mutu, bidang sistem informasi, bidang pemasaran, bidang logistik, bidang manajemen sumber daya manusia, bidang keuangan (perbankan dan asuransi), dan bidang konsultasi manajemen, dsb. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, Kak?","[Sumber: PMB.docx]
 PRODI TEKNIK INDUSTRI (TI)
-Program Studi Teknik Industri mempelajari pengetahuan, pendekatan, pola pikir, prinsip & keterampilan yang berakar pada keilmuan teknik, yaitu proses perancangan (design). Obyek yang dirancang disebut sebagai sistem terintegrasi yang terdiri dari manusia, mesin, material, energi, dan informasi. Tujuan utama dalam perancangan sistem integrasi ini adalah mengoptimalkan kinerja, dengan prinsip efektivitas, efisien, dan produktivitas. Teknik Industri jug...",0.8,partially_faithful,"Sebagian besar prospek kerja yang disebutkan sudah sesuai dengan teks, namun kalimat 'Mereka juga dapat menjadi pengusaha atau founder perusahaan sendiri!' tidak ditemukan di dalam konteks dokumen."
-cara mengisi krs,"Kak! Untuk mengisi KRS, kamu bisa mengikuti langkah-langkah berikut:
-
-1. Pastikan jaringan internet kamu stabil dan telah melakukan konfirmasi tagihan pembayaran ke Bagian Keuangan di kantor Tata Usaha.
-2. Masuk ke halaman http://31.58.158.149:8060/ dan masukan Username (Nomor Induk Mahasiswa/NIM Anda) dan Password (Tanggal Lahir Anda dengan format YYYYMMDD).
-3. Jika pembayaran telah terkonfirmasi, maka pilih menu Perkuliahan, kemudian pilih Kartu Rencana Studi Online.
-4. Jika pembayaran belum terkonfirmasi, maka kamu wajib menghubungi Bagian Keuangan di kantor Tata Usaha.
-5. Setelah masuk halaman Kartu Rencana Studi Online, silahkan tekan tombol Tambah.
-6. Pilih (Centang) Mata Kuliah sesuai dengan kelas dan mata kuliah yang akan diambil pada semester yang akan berlangsung, lalu Klik Simpan.
-7. Setelah Klik Simpan, kemudian sistem akan menampilkan Mata Kuliah yang telah Anda Pilih.
-8. Untuk mencetak Kartu Rencana Studi, silahkan pilih Menu Laporan, kemudian pilih Kartu Rencana Studi dan klik Tampilkan Laporan.
-9. Klik Tombol Cetak.
-
-Dengan mengikuti langkah-langkah di atas, kamu bisa mengisi KRS dengan mudah dan benar, Kak!
-
-Apakah ada pertanyaan lagi terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Program Studi Teknik Industri mempelajari pengetahuan, pendekatan, pola pikir, prinsip & keterampilan yang berakar pada keilmuan teknik, yaitu proses perancangan (design). Obyek yang dirancang disebut sebagai sistem terintegrasi yang terdiri dari manusia, mesin, material, energi, dan informasi. Tujuan utama dalam perancangan sistem integrasi ini adalah mengoptimalkan kinerja, dengan prinsip efektivitas, efisien, dan produktivitas. Teknik Industri jug...",1.0,faithful,Semua prospek kerja lulusan Teknik Industri yang disebutkan dalam jawaban chatbot didukung penuh oleh teks pada konteks.
+cara mengisi krs,"Haloo Kak! Untuk mengisi KRS, silakan masuk ke halaman http://31.58.158.149:8060/ dan masukan Username (Nomor Induk Mahasiswa/NIM Anda) dan Password (Tanggal Lahir Anda dengan format YYYYMMDD). Setelah Login, pilih menu Perkuliahan, kemudian pilih Kartu Rencana Studi Online. Jika pembayaran telah terkonfirmasi, silakan pilih menu tersebut. Jika belum, silakan menghubungi Bagian Keuangan di kantor Tata Usaha. Setelah itu, silakan tekan tombol Tambah, pilih Mata Kuliah sesuai dengan kelas dan mata kuliah yang akan diambil, lalu Klik Simpan. Setelah itu, silakan mencetak Kartu Rencana Studi melalui menu Laporan. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 Jumlah SKS yang ditempuh dalam 1 semester maksimal 24 sks termasuk sks yang mengulang bagi mahasiswa dengan IPK >= 3.00. Bagi mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester.
 Surat edaran terkait perwalian dan pengisian KRS disampaikan kepada mahasiswa paling lambat 3 hari sebelum pengisian KRS.
-Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Semua langkah-langkah pengisian KRS yang diberikan oleh chatbot didukung sepenuhnya oleh teks pada sumber dokumen KRS.docx tanpa ada informasi yang dikarang.
-gimana cara login ke sistem krs online,"Untuk login ke sistem KRS online, kamu perlu mengikuti langkah-langkah berikut:
-
-1. Pastikan jaringan internet kamu stabil dan telah melakukan konfirmasi tagihan pembayaran ke Bagian Keuangan di kantor Tata Usaha.
-2. Setelah itu, kamu bisa mengakses halaman login KRS online dengan mengunjungi alamat http://31.58.158.149:8060/.
-3. Di halaman login, kamu perlu memasukkan Username (Nomor Induk Mahasiswa/NIM) dan Password (Tanggal Lahir Anda dengan format YYYYMMDD). Contoh: 20010512 (2001 = Tahun lahir, 05 = Bulan Lahir, 12 = Tanggal Lahir).
-4. Setelah memasukkan username dan password, kamu bisa menekan tombol Login.
-
-Jika kamu sudah berhasil login, maka sistem akan menampilkan halaman utama. Dari sana, kamu bisa memilih menu Perkuliahan dan kemudian pilih Kartu Rencana Studi Online untuk melanjutkan proses pengisian KRS.
-
-Apakah ada pertanyaan lagi terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Seluruh langkah cara mengisi KRS dalam jawaban chatbot sesuai secara persis dengan informasi yang terdapat pada dokumen konteks panduan pengisian KRS online.
+gimana cara login ke sistem krs online,"Haloo Kak! Untuk login ke sistem KRS online, silakan kunjungi halaman http://31.58.158.149:8060/. Kemudian, masukan Username (Nomor Induk Mahasiswa/NIM Anda) dan Password (Tanggal Lahir Anda dengan format YYYYMMDD) contoh: 20010512. Setelah itu, tekan tombol Login. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 PANDUAN PENGISIAN KARTU RENCANA STUDI (KRS) ONLINE UNTUK MAHASISWA
 Panduan Pengisian Kartu Rencana Studi (KRS) Online untuk Mahasiswa
 Pastikan jaringan internet Anda stabil dan telah melakukan konfirmasi tagihan pembayaran ke Bagian Keuangan di kantor Tata Usaha.
 Setelah terhubung dengan jaringan internet kampus, silahkan Anda masuk ke halaman http://31.58.158.149:8060/. Kemudian akan muncul tampilan sebagai berikut: (tampilan visual antarmuka login)
-Silahkan masukan Username ...",1.0,faithful,Semua langkah login ke sistem KRS online yang dijelaskan oleh chatbot didukung sepenuhnya oleh informasi yang ada di dalam konteks.
-username sama password buat login krs apa,"Username untuk login KRS adalah Nomor Induk Mahasiswa (NIM) Anda, sedangkan passwordnya adalah Tanggal Lahir Anda dengan format YYYYMMDD. Contoh: 20010512 (2001 = Tahun lahir, 05 = Bulan Lahir, 12 = Tanggal Lahir).
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Silahkan masukan Username ...",1.0,faithful,Seluruh langkah login ke sistem KRS online yang dijelaskan dalam jawaban chatbot didukung sepenuhnya oleh informasi yang ada di dalam konteks.
+username sama password buat login krs apa,"Username adalah Nomor Induk Mahasiswa/NIM Anda, sedangkan password adalah Tanggal Lahir Anda dengan format YYYYMMDD, contoh: 20010512.","[Sumber: KRS.docx]
 SOP REGISTRASI DAN HERREGISTRASI MAHASISWA
 Tujuan
 Memastikan pelaksanaan registrasi dan herregistrasi mahasiswa berjalan secara efektif dan efisien sesuai dengan ketentuan dan peraturan yang berlaku serta memenuhi persyaratan yang telah ditetapkan.
 Ruang Lingkup
 Prosedur ini merupakan panduan untuk pelaksanaan registrasi dan herregistrasi mahasiswa di lingkungan kampus Sekolah Tinggi Teknologi Cipasung.
 Definisi
-Registrasi Mahasiswa adalah proses pendaftaran mahasiswa untuk me...",1.0,faithful,Informasi mengenai username (NIM) dan password (tanggal lahir format YYYYMMDD dengan contoh yang diberikan) sepenuhnya sesuai dengan teks pada dokumen konteks panduan pengisian KRS.
-syarat perwalian online,"Kak, syarat perwalian online adalah sebagai berikut:
-
-- Mahasiswa harus sudah menyelesaikan administrasi keuangan sesuai dengan ketentuan.
-- Mahasiswa harus sudah memiliki dosen wali yang akan membimbing dan mengawasinya.
-- Mahasiswa harus sudah memiliki Kartu Rencana Studi (KRS) yang telah disetujui oleh dosen wali.
-
-Dengan syarat-syarat tersebut, mahasiswa dapat melakukan perwalian online dan mengisi KRS melalui SEVIMA.
-
-Apakah ada pertanyaan lagi terkait PMB, KRS, Jadwal, dan Biaya kuliah, kak?","[Sumber: PMB.docx]
-PERSYARATAN ADMINISTRASI
-Mengisi formulir pendaftaran - Online: s.id/pmbsttc
-Membayar biaya pendaftaran - Rp250.000.
-Scan Ijazah /SKL SMA/SMK/MA
-Scan KTP
-Scan pas Foto ukuran 4x6
-Scan Kartu Keluarga
-Scan Akta Lahir
-
----
-
-[Sumber: KRS.docx]
+Registrasi Mahasiswa adalah proses pendaftaran mahasiswa untuk me...",1.0,faithful,Informasi mengenai username (NIM) dan password (tanggal lahir dengan format YYYYMMDD beserta contohnya) didukung secara penuh oleh teks pada konteks dokumen.
+syarat perwalian online,"Kak, syarat perwalian online menurut dokumen PMB adalah mengisi formulir pendaftaran online di s.id/pmbsttc, membayar biaya pendaftaran Rp250.000, dan mengupload beberapa dokumen seperti Ijazah/SKL SMA/SMK/MA, KTP, pas Foto ukuran 4x6, dan Kartu Keluarga. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 Jumlah SKS yang ditempuh dalam 1 semester maksimal 24 sks termasuk sks yang mengulang bagi mahasiswa dengan IPK >= 3.00. Bagi mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester.
-Surat edaran terkait perwalia...",0.5,partially_faithful,"Klaim tentang penyelesaian administrasi keuangan didukung oleh konteks, namun syarat memiliki dosen wali dan KRS yang disetujui untuk melakukan perwalian terbalik atau tidak dinyatakan secara eksplisit sebagai prasyarat perwalian dalam konteks."
-prosedur pengisian rencana studi gimana,"Untuk pengisian Rencana Studi (KRS), kamu perlu melakukan beberapa langkah. Pertama, pastikan jaringan internet kamu stabil dan telah melakukan konfirmasi tagihan pembayaran ke Bagian Keuangan di kantor Tata Usaha.
-
-Setelah itu, kamu bisa mengakses halaman http://31.58.158.149:8060/ dan melakukan login dengan menggunakan Username (Nomor Induk Mahasiswa/NIM) dan Password (Tanggal Lahir dengan format YYYYMMDD). Jika pembayaran telah terkonfirmasi, kamu bisa memilih menu Perkuliahan dan kemudian pilih Kartu Rencana Studi Online.
-
-Jika pembayaran belum terkonfirmasi, kamu perlu menghubungi Bagian Keuangan di kantor Tata Usaha. Setelah masuk halaman Kartu Rencana Studi Online, kamu bisa menambahkan mata kuliah yang akan diambil pada semester yang akan berlangsung. Pastikan kamu memilih mata kuliah yang sesuai dengan kelas dan semester yang akan berlangsung.
-
-Setelah itu, kamu bisa mencetak Kartu Rencana Studi dengan memilih menu Laporan dan kemudian pilih Kartu Rencana Studi. Kamu bisa mencetaknya dengan menekan tombol Cetak.
-
-Apakah ada pertanyaan lagi terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Surat edaran terkait perwalian dan pengisian KRS disampaikan kepada mahasiswa paling lambat 3 hari sebelum pengisian KRS.
+Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",0.0,hallucinated,Jawaban chatbot mengaitkan syarat perwalian online dengan dokumen PMB (pendaftaran mahasiswa baru) yang sama sekali tidak relevan dan mencampurkan informasi yang salah.
+prosedur pengisian rencana studi gimana,"Haloo Kak! Pengisian Rencana Studi (KRS) dilakukan melalui sistem online di http://31.58.158.149:8060/. Setelah login dengan menggunakan Username (Nomor Induk Mahasiswa/NIM) dan Password (Tanggal Lahir Anda dengan format YYYYMMDD), Anda bisa memilih menu Perkuliahan, kemudian pilih Kartu Rencana Studi Online. Jika pembayaran telah terkonfirmasi, Anda bisa menambahkan mata kuliah sesuai dengan kelas dan semester yang akan berlangsung, lalu klik Simpan. Setelah itu, Anda bisa mencetak KRS dengan memilih Menu Laporan, kemudian pilih Kartu Rencana Studi dan klik Tampilkan Laporan. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 PANDUAN PENGISIAN KARTU RENCANA STUDI (KRS) ONLINE UNTUK MAHASISWA
 Panduan Pengisian Kartu Rencana Studi (KRS) Online untuk Mahasiswa
 Pastikan jaringan internet Anda stabil dan telah melakukan konfirmasi tagihan pembayaran ke Bagian Keuangan di kantor Tata Usaha.
 Setelah terhubung dengan jaringan internet kampus, silahkan Anda masuk ke halaman http://31.58.158.149:8060/. Kemudian akan muncul tampilan sebagai berikut: (tampilan visual antarmuka login)
-Silahkan masukan Username ...",1.0,faithful,Seluruh langkah dan informasi yang diberikan dalam jawaban chatbot mengenai prosedur pengisian KRS bersumber secara akurat dari dokumen konteks yang disediakan tanpa ada informasi yang dikarang.
-maksimal sks yang boleh diambil berapa,"Kak, menurut informasi yang saya miliki, mahasiswa hanya diperkenankan mengambil maksimal 24 SKS dalam 1 semester, termasuk SKS yang mengulang bagi mahasiswa dengan IPK ≥ 3.00. Bagi mahasiswa dengan IPK < 3.00, hanya diperkenankan mengambil mata kuliah paket semester.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Silahkan masukan Username ...",1.0,faithful,Seluruh langkah dan informasi prosedur pengisian KRS yang dijelaskan oleh chatbot bersumber langsung dan akurat dari dokumen konteks yang diberikan.
+maksimal sks yang boleh diambil berapa,"Kak, maksimal SKS yang boleh diambil dalam 1 semester adalah 24 sks, termasuk sks yang mengulang bagi mahasiswa dengan IPK >= 3.00. Bagi mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 Jumlah SKS yang ditempuh dalam 1 semester maksimal 24 sks termasuk sks yang mengulang bagi mahasiswa dengan IPK >= 3.00. Bagi mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester.
 Surat edaran terkait perwalian dan pengisian KRS disampaikan kepada mahasiswa paling lambat 3 hari sebelum pengisian KRS.
-Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Seluruh klaim dalam jawaban chatbot mengenai batas maksimal 24 SKS dan ketentuan IPK didukung sepenuhnya oleh isi dokumen konteks.
-kalau ipk di bawah 3 boleh ambil mata kuliah bebas gak,"Menurut informasi yang saya miliki, bagi mahasiswa dengan IPK di bawah 3, hanya diperkenankan mengambil mata kuliah paket semester. Jadi, tidak boleh ambil mata kuliah bebas.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Seluruh informasi mengenai batas maksimal SKS dan ketentuan IPK di dalam jawaban chatbot didukung secara penuh oleh dokumen konteks yang diberikan.
+kalau ipk di bawah 3 boleh ambil mata kuliah bebas gak,"Maaf kak, menurut informasi, bagi mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester, bukan bebas. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 Jumlah SKS yang ditempuh dalam 1 semester maksimal 24 sks termasuk sks yang mengulang bagi mahasiswa dengan IPK >= 3.00. Bagi mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester.
 Surat edaran terkait perwalian dan pengisian KRS disampaikan kepada mahasiswa paling lambat 3 hari sebelum pengisian KRS.
-Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Jawaban sesuai dengan konteks yang menyatakan bahwa mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester.
-cara cetak krs gimana,"Untuk mencetak Kartu Rencana Studi (KRS), silakan ikuti langkah-langkah berikut:
+Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Jawaban chatbot didukung sepenuhnya oleh kalimat dalam konteks KRS.docx yang menyatakan bahwa mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester.
+cara cetak krs gimana,"Kak, untuk mencetak Kartu Rencana Studi (KRS), silahkan pilih Menu Laporan, kemudian pilih Kartu Rencana Studi dan klik Tampilkan Laporan. Setelah itu, klik Tombol Cetak. KRS Anda telah berhasil dicetak.
 
-1. Masuk ke halaman utama KRS Online dengan menggunakan username (Nomor Induk Mahasiswa/NIM) dan password (Tanggal Lahir Anda dengan format YYYYMMDD).
-2. Jika pembayaran telah terkonfirmasi, pilih menu Perkuliahan, kemudian pilih Kartu Rencana Studi Online.
-3. Setelah masuk halaman Kartu Rencana Studi Online, tekan tombol Tambah.
-4. Pilih (Centang) Mata Kuliah sesuai dengan kelas dan mata kuliah yang akan diambil pada semester yang akan berlangsung, lalu Klik Simpan.
-5. Setelah Klik Simpan, sistem akan menampilkan Mata Kuliah yang telah Anda Pilih.
-6. Untuk mencetak KRS, pilih Menu Laporan, kemudian pilih Kartu Rencana Studi dan klik Tampilkan Laporan.
-7. Klik Tombol Cetak.
-
-Dengan demikian, Anda telah berhasil mencetak Kartu Rencana Studi (KRS).
-
-Apakah ada pertanyaan lagi terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 PANDUAN PENGISIAN KARTU RENCANA STUDI (KRS) ONLINE UNTUK MAHASISWA
 Panduan Pengisian Kartu Rencana Studi (KRS) Online untuk Mahasiswa
 Pastikan jaringan internet Anda stabil dan telah melakukan konfirmasi tagihan pembayaran ke Bagian Keuangan di kantor Tata Usaha.
 Setelah terhubung dengan jaringan internet kampus, silahkan Anda masuk ke halaman http://31.58.158.149:8060/. Kemudian akan muncul tampilan sebagai berikut: (tampilan visual antarmuka login)
-Silahkan masukan Username ...",1.0,faithful,Seluruh langkah-langkah pencetakan KRS yang dijelaskan oleh chatbot didasarkan sepenuhnya pada informasi yang tercantum di dalam teks konteks.
-apa itu perwalian,"Perwalian adalah proses bimbingan, konsultasi, dan pengawasan terstruktur antara Dosen Pembimbing Akademik (dosen wali) dengan mahasiswa yang bertujuan untuk membantu mahasiswa merencanakan, mengevaluasi, dan menyelesaikan seluruh tahapan studi secara optimal.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Silahkan masukan Username ...",1.0,faithful,Seluruh langkah untuk mencetak KRS yang diberikan oleh chatbot sesuai persis dengan informasi yang ada pada dokumen konteks.
+apa itu perwalian,"Haloo Kak! Perwalian adalah proses bimbingan, konsultasi, dan pengawasan terstruktur antara Dosen Pembimbing Akademik (dosen wali) dengan mahasiswa yang bertujuan untuk membantu mahasiswa merencanakan, mengevaluasi, dan menyelesaikan seluruh tahapan studi secara optimal. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 SOP REGISTRASI DAN HERREGISTRASI MAHASISWA
 Tujuan
 Memastikan pelaksanaan registrasi dan herregistrasi mahasiswa berjalan secara efektif dan efisien sesuai dengan ketentuan dan peraturan yang berlaku serta memenuhi persyaratan yang telah ditetapkan.
 Ruang Lingkup
 Prosedur ini merupakan panduan untuk pelaksanaan registrasi dan herregistrasi mahasiswa di lingkungan kampus Sekolah Tinggi Teknologi Cipasung.
 Definisi
-Registrasi Mahasiswa adalah proses pendaftaran mahasiswa untuk me...",1.0,faithful,Definisi perwalian yang diberikan chatbot sesuai persis dengan informasi yang tercantum dalam teks konteks bagian definisi.
-kalau gak perwalian terus gak krs-an statusnya jadi apa,"Jika mahasiswa tidak memiliki perwalian dan tidak melakukan pengisian KRS, maka statusnya akan dinyatakan tidak aktif pada semester berlangsung.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+Registrasi Mahasiswa adalah proses pendaftaran mahasiswa untuk me...",1.0,faithful,Definisi perwalian yang diberikan dalam jawaban chatbot sesuai persis dengan teks pada bagian Definisi di dalam konteks dokumen.
+kalau gak perwalian terus gak krs-an statusnya jadi apa,"Jika mahasiswa tidak memiliki perwalian dan tidak melakukan pengisian KRS, maka statusnya akan dinyatakan tidak aktif pada semester berlangsung. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 Jumlah SKS yang ditempuh dalam 1 semester maksimal 24 sks termasuk sks yang mengulang bagi mahasiswa dengan IPK >= 3.00. Bagi mahasiswa dengan IPK < 3.00 hanya diperkenankan mengambil mata kuliah paket semester.
 Surat edaran terkait perwalian dan pengisian KRS disampaikan kepada mahasiswa paling lambat 3 hari sebelum pengisian KRS.
-Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Jawaban chatbot didasarkan sepenuhnya pada kalimat di konteks yang menyatakan 'Bagi mahasiswa yang tidak perwalian dan melakukan KRS-an maka dinyatakan tidak aktif pada semester berlangsung.'
-biaya kuliah berapa,"Kak, berdasarkan informasi yang saya miliki, total biaya kuliah adalah Rp 30.150.000. Ini adalah akumulasi dari biaya-biaya kuliah yang dibayarkan selama 8 semester.
-
-Apakah ada pertanyaan lain terkait biaya kuliah atau informasi lainnya?","[Sumber: BIAYA.docx]
+Batas waktu penutupan akses KRS ditentukan berdasarkan koordinasi Bagian Akademik dengan masing-masing Prodi paling lambat 2 hari sebelum KRS ditut...",1.0,faithful,Jawaban chatbot didasarkan sepenuhnya pada teks konteks yang menyatakan bahwa mahasiswa yang tidak perwalian dan tidak melakukan KRS dinyatakan tidak aktif.
+biaya kuliah berapa,"Haloo Kak! Biaya kuliah total adalah Rp30.150.000. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -376,10 +246,8 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,Jawaban chatbot menyebutkan total biaya kuliah sebesar Rp 30.150.000 yang sesuai persis dengan informasi pada tabel di dokumen BIAYA.docx.
-ukt per semester berapa,"Menurut tabel RINCIAN BIAYA KULIAH, Biaya UKT per semester adalah Rp 3.000.000.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: BIAYA.docx]
+| Semeste...",1.0,faithful,Jumlah total biaya kuliah sebesar Rp30.150.000 tercantum secara akurat pada tabel rincian biaya di dokumen BIAYA.docx.
+ukt per semester berapa,"Haloo Kak! Biaya UKT per semester adalah Rp 3.000.000 ya kak. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -389,9 +257,9 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,Informasi mengenai biaya UKT sebesar Rp 3.000.000 per semester secara akurat didasarkan pada Tabel 1 di dokumen BIAYA.docx.
-biaya pendaftaran berapa,Biaya pendaftaran untuk kuliah di STT Cipasung adalah Rp250.000.,"[Sumber: PMB.docx]
-PERSYARATAN ADMINISTRASI
+| Semeste...",1.0,faithful,Informasi biaya UKT per semester sebesar Rp 3.000.000 tercantum secara jelas dan sesuai dengan data pada Tabel 1 di dokumen BIAYA.docx.
+biaya pendaftaran berapa,"Biaya pendaftaran adalah Rp250.000, Kak! Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: PMB.docx]
+PERSYARATAN PENDAFTARAN / ADMINISTRASI
 Mengisi formulir pendaftaran - Online: s.id/pmbsttc
 Membayar biaya pendaftaran - Rp250.000.
 Scan Ijazah /SKL SMA/SMK/MA
@@ -408,16 +276,8 @@ RINCIAN BIAYA KULIAH
 [Tabel 1]
 | Komponen | Keterangan Tambahan | Jumlah (Rp) |
 | --- | --- | --- |
-| Biaya Awal | Termasuk Biaya Pendaftaran, Jas Almamater, Kartu Tanda Mahasiswa, Orientasi Kampus, dan Uang Bangunan. Dibayarkan 1 kali di...",1.0,faithful,Informasi mengenai biaya pendaftaran sebesar Rp250.000 didukung secara penuh oleh konteks yang tersedia pada dokumen PMB.docx.
-biaya awal masuk kuliah ada apa aja,"Kak! Biaya Awal yang dimaksud adalah biaya yang dibayarkan sekali di awal kuliah, dan termasuk beberapa komponen penting seperti:
-
-- Biaya Pendaftaran
-- Jas Almamater
-- Kartu Tanda Mahasiswa
-- Orientasi Kampus
-- Uang Bangunan
-
-Totalnya sebesar Rp2.750.000, kak! Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: BIAYA.docx]
+| Biaya Awal | Termasuk Biaya Pendaftaran, Jas Almamater, Kartu Tanda Mahasiswa, Orientasi Kampus, dan Uang Bangunan. Dibaya...",1.0,faithful,Informasi mengenai biaya pendaftaran sebesar Rp250.000 didukung secara penuh oleh dokumen sumber PMB.docx.
+biaya awal masuk kuliah ada apa aja,"Biaya Awal yang dimaksud adalah Rp2.750.000, Kak. Termasuk di dalamnya adalah Biaya Pendaftaran, Jas Almamater, Kartu Tanda Mahasiswa, Orientasi Kampus, dan Uang Bangunan. Dibayarkan 1 kali di awal. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -427,8 +287,8 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,Semua informasi mengenai rincian dan total biaya awal dalam jawaban chatbot didukung sepenuhnya oleh data di dalam konteks [Sumber: BIAYA.docx].
-bayar ukt bisa dicicil gak,"Ya, kak! Biaya UKT bisa dicicil per bulan. Kamu bisa membayarnya secara bertahap untuk memudahkan.","[Sumber: BIAYA.docx]
+| Semeste...",1.0,faithful,Semua rincian biaya awal yang disebutkan dalam jawaban sesuai secara akurat dengan data yang tertera pada tabel konteks dokumen BIAYA.docx.
+bayar ukt bisa dicicil gak,"Haloo Kak! Biaya UKT bisa dicicil per bulan, Kak. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, Kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -438,10 +298,8 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,Informasi bahwa Biaya UKT bisa dicicil per bulan didukung secara penuh oleh tabel rincian biaya kuliah di dokumen.
-total biaya kuliah sampai lulus berapa,"Kak, menurut tabel RINCIAN BIAYA KULIAH, total biaya kuliah adalah Rp 30.150.000.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah, kak?","[Sumber: BIAYA.docx]
+| Semeste...",1.0,faithful,Klaim bahwa biaya UKT bisa dicicil per bulan didukung sepenuhnya oleh informasi pada tabel biaya kuliah di dokumen konteks.
+total biaya kuliah sampai lulus berapa,"Kak, total biaya kuliah sampai lulus adalah Rp 30.150.000. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -451,10 +309,8 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,"Jawaban chatbot menyebutkan total biaya kuliah sebesar Rp 30.150.000, yang didukung sepenuhnya oleh data [Tabel 1] dalam dokumen BIAYA.docx."
-biaya sidang ta berapa,"Menurut informasi yang saya miliki, biaya Sidang TA & Wisuda adalah Rp3.000.000. Ini termasuk dalam biaya Semester VIII, seperti tercantum di Tabel 1 RINCIAN BIAYA KULIAH.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: BIAYA.docx]
+| Semeste...",1.0,faithful,"Jawaban chatbot menyebutkan total biaya kuliah sebesar Rp 30.150.000, yang didukung secara penuh dan akurat oleh data pada Tabel 1 di dokumen BIAYA.docx."
+biaya sidang ta berapa,"Maaf kak, Minci belum menemukan informasi tentang biaya Sidang TA di dokumen terkait. Mungkin bisa ditanyakan langsung ke bagian Tata Usaha STT Cipasung ya, kak. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -464,10 +320,8 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,Informasi mengenai biaya Sidang TA & Wisuda sebesar Rp3.000.000 pada Semester VIII didukung penuh oleh teks konteks dari BIAYA.docx.
-semester 7 ada biaya tambahan apa,"Pada Semester VII, ada biaya tambahan sebesar Rp 400.000 untuk biaya Sidang KP.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: BIAYA.docx]
+| Semeste...",0.0,hallucinated,"Informasi tentang biaya Sidang TA sebenarnya ada di konteks (Semester VIII mencakup Sidang TA & Wisuda sebesar 3.000.000), sehingga jawaban chatbot salah karena menyatakan tidak ada informasi."
+semester 7 ada biaya tambahan apa,"Kak, di Semester VII ada biaya tambahan untuk Sidang KP sebesar Rp400.000. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: BIAYA.docx]
 RINCIAN BIAYA KULIAH
 
 [Tabel 1]
@@ -477,10 +331,8 @@ RINCIAN BIAYA KULIAH
 | Biaya UKT | Uang Kuliah Tunggal yang dibayarkan setiap semester (6 bulan). Bisa dicicil per bulan. | 3.000.000 |
 | Semester I | Biaya di Semester I dan Biaya Awal | 5.750.000 |
 | Semester II |  | 3.000.000 |
-| Semeste...",1.0,faithful,Informasi mengenai biaya tambahan Sidang KP sebesar Rp 400.000 pada Semester VII sesuai secara akurat dengan data pada Tabel 1 di dokumen BIAYA.docx.
-kapan pmb gelombang 1 dibuka,"Pendaftaran Mahasiswa Baru (PMB) Gelombang I dibuka pada tanggal 03 Februari - 11 Mei 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KALENDER.docx]
+| Semeste...",1.0,faithful,Informasi mengenai biaya tambahan Sidang KP sebesar Rp400.000 di Semester VII sesuai persis dengan data pada [Tabel 1] di konteks BIAYA.docx.
+kapan pmb gelombang 1 dibuka,"Haloo Kak! Pendaftaran Mahasiswa Baru (PMB) Gelombang I dibuka mulai tanggal 03 Februari - 11 Mei 2025. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KALENDER.docx]
 KALENDER AKADEMIK
 A. Pra Akademik 2025/2026 PMB (Penerimaan Mahasiswa Baru)
 B. Kegiatan Akademik Semester Gasal 2025/2026
@@ -492,10 +344,8 @@ C. Kegiatan Semester Genap
 | Gelombang I | Pendaftaran Mahasiswa | 03 Februari - 11 Mei 2025 |
 | Gelombang I | Seleksi Penerimaan Mahasiswa Baru | 13 - 14 Mei 2025 |
 | Gelombang I | Pengumuman Hasil Seleksi | 17 Mei 2025 |
-| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",1.0,faithful,Jawaban chatbot sesuai persis dengan informasi tanggal pendaftaran Gelombang I pada Tabel 1 di dokumen konteks.
-pendaftaran gelombang 3 mulai kapan,"Menurut informasi yang saya miliki, pendaftaran Gelombang III mulai tanggal 21 Juli 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KALENDER.docx]
+| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",1.0,faithful,Informasi tanggal pembukaan PMB Gelombang I (03 Februari - 11 Mei 2025) sepenuhnya didukung oleh Tabel 1 dalam konteks dokumen KALENDER.docx.
+pendaftaran gelombang 3 mulai kapan,"Halo Kak! Pendaftaran Gelombang III mulai tanggal 21 Juli - 16 Agustus 2025 ya kak. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KALENDER.docx]
 KALENDER AKADEMIK
 A. Pra Akademik 2025/2026 PMB (Penerimaan Mahasiswa Baru)
 B. Kegiatan Akademik Semester Gasal 2025/2026
@@ -507,10 +357,8 @@ C. Kegiatan Semester Genap
 | Gelombang I | Pendaftaran Mahasiswa | 03 Februari - 11 Mei 2025 |
 | Gelombang I | Seleksi Penerimaan Mahasiswa Baru | 13 - 14 Mei 2025 |
 | Gelombang I | Pengumuman Hasil Seleksi | 17 Mei 2025 |
-| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",1.0,faithful,Informasi tanggal pendaftaran Gelombang III sesuai persis dengan data pada Tabel 1 di dokumen konteks.
-jadwal uts kapan,"Jadwal UTS (Ujian Tengah Semester) adalah pada tanggal 10 - 15 November 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KALENDER.docx]
+| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",1.0,faithful,Jawaban chatbot sesuai dengan data pada Tabel 1 di dokumen sumber yang mencantumkan pendaftaran Gelombang III pada tanggal 21 Juli - 16 Agustus 2025.
+jadwal uts kapan,"Halo Kak! Ujian Tengah Semester (UTS) jatuh pada tanggal 10-15 November 2025. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KALENDER.docx]
 A 2024/2025 | 30 Agustus 2025 |
 | Awal/Masuk Kuliah / Praktikum Mahasiswa | 08 September 2025 |
 | Batas Akhir Sidang Tugas Akhir T.A 2024 / 2025 | 13 September 2025 |
@@ -519,10 +367,8 @@ A 2024/2025 | 30 Agustus 2025 |
 | Wisuda Sarjana T.A. 2024/2025 | 01 November 2025 |
 | Ujian Tengah Semester (UTS) | 10 - 15 November 2025 |
 | Libur Natal | 25 - 26 Desember 2025 |
-| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,Jawaban chatbot mengenai jadwal UTS (10 - 15 November 2025) sepenuhnya akurat dan didasarkan langsung pada teks konteks yang diberikan.
-jadwal uas kapan,"Menurut informasi yang saya miliki, Ujian Akhir Semester (UAS) akan diadakan pada tanggal 05 - 10 Januari 2026.
-
-Apakah ada pertanyaan lain terkait Jadwal kuliah?","[Sumber: KALENDER.docx]
+| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,"Jawaban chatbot menyatakan bahwa Ujian Tengah Semester (UTS) jatuh pada tanggal 10-15 November 2025, yang sesuai persis dengan informasi di dalam konteks dokumen KALENDER.docx."
+jadwal uas kapan,"Haloo Kak! Jadwal UAS (Ujian Akhir Semester) adalah 05 - 10 Januari 2026, ya kak. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KALENDER.docx]
 A 2024/2025 | 30 Agustus 2025 |
 | Awal/Masuk Kuliah / Praktikum Mahasiswa | 08 September 2025 |
 | Batas Akhir Sidang Tugas Akhir T.A 2024 / 2025 | 13 September 2025 |
@@ -531,10 +377,8 @@ A 2024/2025 | 30 Agustus 2025 |
 | Wisuda Sarjana T.A. 2024/2025 | 01 November 2025 |
 | Ujian Tengah Semester (UTS) | 10 - 15 November 2025 |
 | Libur Natal | 25 - 26 Desember 2025 |
-| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,Informasi jadwal Ujian Akhir Semester (UAS) pada tanggal 05 - 10 Januari 2026 secara akurat didasarkan pada teks konteks yang diberikan.
-kapan pengumuman hasil seleksi gelombang 2,"Pengumuman hasil seleksi Gelombang II adalah pada tanggal 26 Juli 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KALENDER.docx]
+| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,Jawaban chatbot mengenai tanggal UAS (05 - 10 Januari 2026) didukung secara penuh oleh informasi yang ada di dalam konteks dokumen KALENDER.docx.
+kapan pengumuman hasil seleksi gelombang 2,"Kak, pengumuman hasil seleksi Gelombang II adalah tanggal 26 Juli 2025. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KALENDER.docx]
 KALENDER AKADEMIK
 A. Pra Akademik 2025/2026 PMB (Penerimaan Mahasiswa Baru)
 B. Kegiatan Akademik Semester Gasal 2025/2026
@@ -546,10 +390,8 @@ C. Kegiatan Semester Genap
 | Gelombang I | Pendaftaran Mahasiswa | 03 Februari - 11 Mei 2025 |
 | Gelombang I | Seleksi Penerimaan Mahasiswa Baru | 13 - 14 Mei 2025 |
 | Gelombang I | Pengumuman Hasil Seleksi | 17 Mei 2025 |
-| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",1.0,faithful,Tanggal pengumuman hasil seleksi Gelombang II (26 Juli 2025) secara persis tercantum di dalam Tabel 1 pada konteks dokumen.
-kapan wisuda,"Wisuda Sarjana T.A. 2024/2025 akan diadakan pada tanggal 01 November 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KALENDER.docx]
+| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",1.0,faithful,Tanggal pengumuman hasil seleksi Gelombang II tercantum secara akurat pada Tabel 1 di konteks yaitu 26 Juli 2025.
+kapan wisuda,"Wisuda Sarjana T.A. 2024/2025 adalah pada tanggal 01 November 2025. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KALENDER.docx]
 A 2024/2025 | 30 Agustus 2025 |
 | Awal/Masuk Kuliah / Praktikum Mahasiswa | 08 September 2025 |
 | Batas Akhir Sidang Tugas Akhir T.A 2024 / 2025 | 13 September 2025 |
@@ -558,20 +400,16 @@ A 2024/2025 | 30 Agustus 2025 |
 | Wisuda Sarjana T.A. 2024/2025 | 01 November 2025 |
 | Ujian Tengah Semester (UTS) | 10 - 15 November 2025 |
 | Libur Natal | 25 - 26 Desember 2025 |
-| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,"Jawaban chatbot menyebutkan tanggal wisuda 01 November 2025, yang informasinya tertera secara akurat di dalam KONTEKS dokumen."
-jadwal herregistrasi kapan,"Menurut kalender akademik, jadwal herregistrasi dan perwalian/KRS Semester Gasal adalah dari tanggal 25 Agustus hingga 06 September 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,Tanggal wisuda yang disebutkan dalam jawaban chatbot sesuai secara persis dengan informasi yang terdapat di dalam konteks dokumen (01 November 2025).
+jadwal herregistrasi kapan,"Haloo Kak! Jadwal herregistrasi ada di Tabel 1 dan Tabel 3, Kak. Untuk semester gasal, herregistrasi dan perwalian/KRS dimulai tanggal 25 Agustus - 06 September 2025. Untuk semester genap, herregistrasi dan perwalian dimulai tanggal 02 - 07 Februari 2026. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 SOP REGISTRASI DAN HERREGISTRASI MAHASISWA
 Tujuan
 Memastikan pelaksanaan registrasi dan herregistrasi mahasiswa berjalan secara efektif dan efisien sesuai dengan ketentuan dan peraturan yang berlaku serta memenuhi persyaratan yang telah ditetapkan.
 Ruang Lingkup
 Prosedur ini merupakan panduan untuk pelaksanaan registrasi dan herregistrasi mahasiswa di lingkungan kampus Sekolah Tinggi Teknologi Cipasung.
 Definisi
-Registrasi Mahasiswa adalah proses pendaftaran mahasiswa untuk me...",1.0,faithful,Jawaban chatbot sepenuhnya didasarkan pada informasi tanggal herregistrasi yang tercantum di dalam dokumen konteks.
-ktmb dilaksanakan tanggal berapa,"Ketika melihat dokumen terkait, saya menemukan bahwa KTMB (Kegiatan Tugas Mahasiswa) dilaksanakan pada tanggal 01 - 06 September 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KALENDER.docx]
+Registrasi Mahasiswa adalah proses pendaftaran mahasiswa untuk me...",1.0,faithful,Seluruh informasi tanggal herregistrasi baik untuk semester gasal maupun genap sesuai secara akurat dengan data yang tercantum di dalam konteks dokumen.
+ktmb dilaksanakan tanggal berapa,"Kak, KTMB 2025 dilaksanakan tanggal 01 - 06 September 2025 ya. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KALENDER.docx]
 KALENDER AKADEMIK
 A. Pra Akademik 2025/2026 PMB (Penerimaan Mahasiswa Baru)
 B. Kegiatan Akademik Semester Gasal 2025/2026
@@ -583,18 +421,14 @@ C. Kegiatan Semester Genap
 | Gelombang I | Pendaftaran Mahasiswa | 03 Februari - 11 Mei 2025 |
 | Gelombang I | Seleksi Penerimaan Mahasiswa Baru | 13 - 14 Mei 2025 |
 | Gelombang I | Pengumuman Hasil Seleksi | 17 Mei 2025 |
-| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",0.5,partially_faithful,"Tanggal pelaksanaan KTMB (01 - 06 September 2025) sudah benar sesuai konteks, namun chatbot mengarang kepanjangan KTMB menjadi ""Kegiatan Tugas Mahasiswa"" yang tidak ada dalam dokumen."
-batas waktu cuti kuliah atau kprs kapan,"Menurut informasi yang saya miliki, batas waktu cuti akademik maksimal 2 (dua) semester dan tidak boleh beruntun dalam 1 (satu) tahun akademik. Selain itu, mahasiswa juga harus telah mengikuti kuliah paling sedikit atau minimal 2 (dua) semester sebelum mengajukan cuti akademik.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KRS.docx]
+| Gelombang I | Registrasi Administrasi Mahasiswa Baru | 19 - 24 ...",1.0,faithful,Jawaban chatbot mengenai tanggal pelaksanaan KTMB 2025 (01 - 06 September 2025) sepenuhnya didukung oleh informasi yang ada pada Tabel 2 di konteks dokumen.
+batas waktu cuti kuliah atau kprs kapan,"Kak, batas waktu cuti akademik maksimal 2 semester dan tidak beruntun dalam 1 tahun akademik. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, kak?","[Sumber: KRS.docx]
 Syarat dan Ketentuan KRS/Perwalian
 Batas Maksimal Masa Studi: Maksimal 7 tahun (14 semester).
 Pemberitahuan & Peringatan Berkala: Pemberitahuan dan hasil pemantauan wajib disampaikan kepada mahasiswa serta Orang Tua/Wali secara berkala setiap 3 (tiga) bulan sejak mahasiswa memasuki masa kritis.
 Batas Akhir Pengambilan Keputusan Status: Paling lambat ditetapkan pada pertengahan Semester 14.
-Pelaporan Status Keakademikan: Penetapan SK Pengunduran Diri / Pindah / DO wajib diterbi...",1.0,faithful,Semua informasi mengenai batas waktu cuti akademik dalam jawaban sepenuhnya didukung oleh dokumen konteks yang tersedia tanpa ada tambahan informasi fiktif.
-libur natal kapan,"Libur Natal adalah 25 - 26 Desember 2025.
-
-Apakah ada pertanyaan lain terkait PMB, KRS, Jadwal, dan Biaya kuliah?","[Sumber: KALENDER.docx]
+Pelaporan Status Keakademikan: Penetapan SK Pengunduran Diri / Pindah / DO wajib diterbi...",1.0,faithful,Informasi mengenai batas waktu cuti akademik maksimal 2 semester dan tidak beruntun dalam 1 tahun akademik sesuai persis dengan isi konteks dokumen.
+libur natal kapan,"Libur Natal adalah 25-26 Desember 2025, Kak. Ada pertanyaan lain seputar PMB, KRS, Jadwal, atau Biaya kuliah, Kak?","[Sumber: KALENDER.docx]
 A 2024/2025 | 30 Agustus 2025 |
 | Awal/Masuk Kuliah / Praktikum Mahasiswa | 08 September 2025 |
 | Batas Akhir Sidang Tugas Akhir T.A 2024 / 2025 | 13 September 2025 |
@@ -603,4 +437,4 @@ A 2024/2025 | 30 Agustus 2025 |
 | Wisuda Sarjana T.A. 2024/2025 | 01 November 2025 |
 | Ujian Tengah Semester (UTS) | 10 - 15 November 2025 |
 | Libur Natal | 25 - 26 Desember 2025 |
-| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,Informasi tanggal Libur Natal sesuai persis dengan yang tertera di dokumen KONTEKS.
+| Libur Tahun Baru | 01 Januari 2026...",1.0,faithful,Jawaban chatbot mengenai tanggal Libur Natal (25-26 Desember 2025) sepenuhnya didukung oleh informasi yang ada di dalam konteks.
