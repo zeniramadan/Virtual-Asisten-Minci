@@ -15,6 +15,7 @@ import chromadb
 import ollama
 import rag.config as config
 import ollama_utils
+import guard
 
 # ============================================================
 # DEBUG (ringkas: satu blok per pesan)
@@ -253,6 +254,19 @@ def generate_reply(user_id: str, user_message: str) -> str:
     conn = _get_db()
     try:
         _debug_start(user_id, user_message)
+
+        # --- Cek prompt injection / manipulation PALING AWAL ---
+        is_injection, alasan = guard.detect_prompt_injection(user_message)
+        if is_injection:
+            answer = getattr(
+                config, "INJECTION_REJECT_MESSAGE",
+                "Maaf, saya tidak bisa memproses permintaan itu. Silakan ajukan pertanyaan seputar informasi kampus ya 🙏"
+            )
+            _debug_set(chitchat=f"BLOCKED ({alasan})")
+            _debug_show(answer)
+            _save_message(conn, user_id, "user", user_message)
+            _save_message(conn, user_id, "assistant", answer)
+            return answer
 
         history = _get_history(conn, user_id)
         category, _ = detect_chitchat(user_message)

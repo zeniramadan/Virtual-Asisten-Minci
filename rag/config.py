@@ -76,6 +76,14 @@ HISTORY_TIMEOUT_SECONDS = 60 * 60
 MAX_HISTORY_TURNS = 6
 
 # ============================================================
+# INJECTION GUARD
+# ============================================================
+INJECTION_REJECT_MESSAGE = (
+    "Maaf, saya tidak bisa memproses permintaan itu. "
+    "Silakan ajukan pertanyaan seputar informasi kampus ya 🙏"
+)
+
+# ============================================================
 # PROMPT
 # ============================================================
 SYSTEM_PROMPT_TEMPLATE = """Kamu adalah Minci, asisten virtual STT Cipasung yang membantu mahasiswa, dosen, dan staf seputar informasi PMB, KRS, Jadwal, dan Biaya kuliah.
